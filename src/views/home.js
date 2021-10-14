@@ -5,8 +5,7 @@ export default class Home extends Component {
         return (
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col"><h1>ayeeeee</h1></div>
-                    <div className="col"><img className="img img-fluid" alt="League BG" src="akali-irelia-karma-yasuo-league-of-legends.jpg"></img></div>
+                    <div className="col"><h1>The Best Roadmap for Fitness</h1></div>
                 </div>
             </div>
         )

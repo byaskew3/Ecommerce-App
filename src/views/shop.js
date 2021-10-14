@@ -5,7 +5,7 @@ export default class Home extends Component {
         return (
             <div className="container-fluid">
                 <div className="row">
-                    <h1>This will be our League Shop</h1>
+                    <h1>Workout Programs</h1>
                 </div>
             </div>
         )
