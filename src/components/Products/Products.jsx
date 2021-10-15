@@ -4,13 +4,8 @@ import { Grid } from '@material-ui/core';
 import Product from './Product/Product';
 import useStyles from './styles';
 
-const products = [
-    { id: 1, name: "CLASSIC SHREDDING PROGRAM", description: "6 DAY TRAINING PROGRAM", price: "$25.00", image:'https://images4.alphacoders.com/805/805233.jpg'},
-    { id: 2, name: "ELITE ATHLETE PROGRAM", description: "5 DAY TRAINING PROGRAM", price: "$25.00", image:'https://i.pinimg.com/564x/7a/11/b9/7a11b9f739c130eed437d1a237cc3b7d.jpg'}
 
-];
-
-const Products = () => {
+const Products = ( {products} ) => {
     const classes = useStyles();
 
     return (
